@@ -2,7 +2,7 @@
 //  main.m
 //  screenshot
 //
-//  Created by 张瑶林 on 2020/7/16.
+//  Created by mian on 2020/7/16.
 //  Copyright © 2020 mian. All rights reserved.
 //
 

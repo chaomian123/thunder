@@ -2,7 +2,7 @@
 //  KBCclient.cpp
 //  screenshot
 //
-//  Created by 张瑶林 on 2020/7/16.
+//  Created by mian on 2020/7/16.
 //  Copyright © 2020 mian. All rights reserved.
 //
 
@@ -24,7 +24,7 @@ client() {
     serverAddress.sin_family = AF_INET;
     serverAddress.sin_addr.s_addr = 0x00000000;
     serverAddress.sin_port = 0xBEAF;
-    
+
     //客户端直接连接服务器，无需其他设置
     connect(socketFd, (struct sockaddr *)&serverAddress,
             sizeof(serverAddress));
